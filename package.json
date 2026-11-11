@@ -1,0 +1,29 @@
+{
+  "name": "fe_standard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@12.16.1",
+  "scripts": {
+    "dev": "lerna run dev --parallel --stream",
+    "build": "lerna run build",
+    "lint": "lerna run lint --stream",
+    "test": "lerna run test",
+    "sonar":"sonar-scanner"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "lerna": "^10.1.1",
+    "sonarqube-scanner": "^5.0.2",
+    "ts-jest": "^29.4.15"
+  }
+}

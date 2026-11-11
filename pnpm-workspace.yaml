@@ -1,0 +1,10 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+# allowBuilds:
+#   '@parcel/watcher': false
+#   nx: false
+# # verifyDepsBeforeRun: false
+allowBuilds:
+  '@parcel/watcher': true
+  nx: true

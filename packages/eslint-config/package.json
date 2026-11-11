@@ -1,0 +1,9 @@
+{
+    "name":"@fe_standard/eslint-config",
+    "version":"1.0.0",
+    "private": true,
+    "type": "module",
+    "exports": {
+        "./react": "./react.js"
+    }
+}
